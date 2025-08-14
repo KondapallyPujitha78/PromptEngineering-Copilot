@@ -1,0 +1,52 @@
+1. Using Delimiters + Specifying Output Format
+
+Prompt:
+Using the C# class provided between triple backticks, write five Unit unit tests designed to maximize code coverage. Present the test code in a C# code block.
+After writing the tests, explain how to run tests to measure coverage before and after, and report the improvement in percentage.
+``` C# class```
+
+
+
+2. Few-Shot Examples + Specifying Output Format
+
+Prompt:
+Here is an example Unit test:
+public void Add_ShouldReturnCorrectSum()
+{
+    var calc = new Calculator();
+    Assert.AreEqual(5, calc.Add(2, 3));
+}
+Following this format, write four additional unit tests for the Calculator class to improve coverage. Output all tests in a single C# code block.
+Then, provide step-by-step instructions to run coverage analysis before and after adding these tests, and calculate the coverage improvement percentage.
+
+
+
+
+3. Specifying a Condition + Step-by-Step Instructions
+
+Prompt:
+Write Unit tests for the Calculator class only if there are methods with potential runtime error scenarios.
+1. Identify such methods and explain the risks.
+2. Write tests that cover normal execution and the identified errors.
+Show how to execute coverage measurement using the tests before and after adding the tests, and compute the improvement in coverage.
+
+
+
+4. Allowing Time to Think + Specifying Steps to Follow
+
+Prompt:
+Take a moment to reason through the problem. Then:
+1. List all methods in the Calculator class.
+2. Determine possible edge cases for each method.
+Write Unit tests covering those edge cases to improve code coverage.
+Provide the exact command to measure coverage before and after, and calculate the improvement in percentage.
+
+
+
+5. Reasoning Before Conclusion + Using Delimiters
+
+Prompt:
+Analyze the Calculator class between triple backticks to identify untested or under-tested areas.
+```Calculator class code here```
+First,identify coverage gaps. Then, write five Unit tests that address these gaps.
+Finally, explain how to measure the coverage percentage before and after adding these tests
